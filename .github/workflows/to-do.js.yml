@@ -29,8 +29,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-      working-directory: 'learn-angular/angular-crash-todolist/'
+      working-directory: 'angular-crash-todolist/'
     - run: npm run build --if-present
-      working-directory: 'learn-angular/angular-crash-todolist/'
+      working-directory: 'angular-crash-todolist/'
     - run: npm test
-      working-directory: 'learn-angular/angular-crash-todolist/'
+      working-directory: 'angular-crash-todolist/'
