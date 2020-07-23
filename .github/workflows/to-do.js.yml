@@ -32,5 +32,7 @@ jobs:
       working-directory: 'angular-crash-todolist/'
     - run: npm run build --if-present
       working-directory: 'angular-crash-todolist/'
-    - run: npm test
-      working-directory: 'angular-crash-todolist/'
+    - run: npm ci
+      working-directory: 'angular-forms/pes-demo/'
+    - run: npm run build --if-present
+      working-directory: 'angular-forms/pes-demo/'
